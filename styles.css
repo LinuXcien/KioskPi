@@ -1,0 +1,60 @@
+/*  Colors:
+	#FF9800 - Orange
+	#009688 - Teal
+	#FAFAFA - LightGrey
+	#607D8B - BlueGrey
+	#5677FC - Blue 500
+	#03A9F4 - Light blue 500
+	#3F51B5 - Indigo 500
+	#7986CB - Indigo 300
+	#C5CAE9 - Indigo 100
+*/
+
+html { height: 700px; width: 100%; }
+body { margin: 0px; 
+	padding: 0px; 
+	border: 0px;
+	background: #7986CB;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #FAFAFA;
+    line-height: 15px;
+    font-size: 13px;
+	height: 100%;
+	width: 100%; }
+	
+img { border: none; }
+a { color: #FAFAFA;}
+
+#header { height: 70px; margin: 0px; padding: 0px; text-align: left; 
+	background: #3F51B5; color: #FAFAFA; }
+#header h1 { padding: 1em; margin: 0px;}
+#footer { height: 55px; 
+	margin: 0px; 
+	padding: 0px; 
+	text-align: center; 
+	background: #3F51B5;
+	font-size: 10px;
+	color: #FAFAFA;
+	positioning: fixed;
+	bottom: 1px;
+	clear: both;}
+#ipAddress { font-size: 8px;
+	text-align: center;
+	clear: right; }
+
+/* Side bar */
+#sidebar { width: 10%;
+	height: 100%; 
+	padding: 1em 2em;
+	color: #FAFAFA; 
+	background: #3F51B5;
+	font-size: 10px; 
+	float: left;}
+
+/* Page Content */
+#page { width: 80%;
+	padding: 1em 2em; 
+	vertical-align: top; 
+	float: left; }
+#page h2 { color: #FAFAFA; margin-top: 1em;}
+#page h3 { color: #FAFAFA; }
