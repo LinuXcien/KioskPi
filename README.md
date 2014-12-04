@@ -11,7 +11,7 @@ We managed to implement this using the Python Selenium and Beautiful soup librar
 
 # Files
 
-The following files are required for a succesful installation, they must be copied to the `~/bin` directory of the pi user (or any other user who is enabled for sudo with `NOPASSWD: ALL` option):
+The following files are required for a succesful installation, they must be copied to the `~/bin (you might have to create it)` directory of the pi user (or any other user who is enabled for sudo with `NOPASSWD: ALL` option):
 
 + `footer.html` static footer page (included using `kiosk.py`)
 + `header.html`
@@ -53,6 +53,6 @@ Change into bin and run the installation program:
 >cd ~/bin
 >./installKiosk.sh
 
-Check for any errors (all output is also logged to an installation log file, filename something like: `installKiosk_YYYYMMDDHHMMSS.log`
+Check for any errors (all output is also logged to an installation log file, filename something like: `installKiosk_YYYYMMDDHHMMSS.log`. Make sure all scripts and Python code are executable for the installation use (pi).
 
 Reboot the Raspberry Pi and watch the console!
