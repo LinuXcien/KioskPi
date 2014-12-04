@@ -3,7 +3,6 @@ import sys
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup
-from email import contentmanager
 #
 # Following class can be instanced without parameters, defaults are:
 #  url = the HTTP adress of the page that needs fetching
