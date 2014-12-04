@@ -14,13 +14,13 @@ We managed to implement this using the Python Selenium and Beautiful soup librar
 The following files are required for a succesful installation, they must be copied to the `~/bin` (you might have to create it) directory of the pi user (or any other user who is enabled for sudo with `NOPASSWD: ALL` option):
 
 + `footer.html` static footer page (included using `kiosk.py`)
-+ `header.html`
-+ `installKiosk.sh`
-+ `kiosk.py`
-+ `phantomjs`
-+ `scraped_included.html`
-+ `styles.css`
-+ `webScraper.py`
++ `header.html` static header page
++ `installKiosk.sh` installation script, run this from within the `~/bin` directory
++ `kiosk.py` Python kiosk script, generates the Kiosk web page from static and dynamic content
++ `phantomjs` external code called by Selenium to fetch the page from the Internet (compiled for the ARM CPU architecture).
++ `scraped_included.html` first HTML tekst included in the Kiosk page, will be overwritten every 5 minutes when Kiosk application is running
++ `styles.css`static Cascading Style Sheet - use this to change layout, colours of the Kiosk page
++ `webScraper.py`Python scraping code. Change here the code to point to a different URL and analyse the page content to find what you are searching for
 
 After installation the script will have copied the files to the appropriate directories and created a few new files:
 
