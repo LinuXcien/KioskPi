@@ -11,7 +11,7 @@ We managed to implement this using the Python Selenium and Beautiful soup librar
 
 # Files
 
-The following files are required for a succesful installation, they must be copied to the `~/bin (you might have to create it)` directory of the pi user (or any other user who is enabled for sudo with `NOPASSWD: ALL` option):
+The following files are required for a succesful installation, they must be copied to the `~/bin` (you might have to create it) directory of the pi user (or any other user who is enabled for sudo with `NOPASSWD: ALL` option):
 
 + `footer.html` static footer page (included using `kiosk.py`)
 + `header.html`
